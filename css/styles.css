@@ -165,6 +165,20 @@ img {
   padding-top: 120px;
   padding-bottom: 120px;
 }
+.about-us {
+  width: calc((100% -72px) / 4);
+  gap: 24px;
+}
+.criteria-functions-link {
+  width: 264px;
+  height: 112px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  background-color: #f4f4fd;
+  margin-bottom: 8px;
+}
 
 .criteria {
   font-weight: 500;
@@ -180,6 +194,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
 /* ---------What are we doing ---------*/
 
 .we-doing {
