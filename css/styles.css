@@ -325,9 +325,11 @@ img {
   justify-content: center;
   color: #8e8f99;
 }
-.customers-icons {
-  color: currentColor;
-}
+.customers-icons { 
+    --color1: currentColor;
+    color: currentColor;
+  }
+
 .customers-link:hover,
 .customers-link:focus {
   border-color: #404bbf;
